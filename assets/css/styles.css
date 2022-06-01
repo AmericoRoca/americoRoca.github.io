@@ -56,7 +56,7 @@ header {
 
 #title{
     float: left;
-    height: 265px;
+    height: 165px;
     margin-top: 80px;
 }
 
@@ -66,10 +66,73 @@ header {
     text-align: center;
     margin-top: 20px;
 }
-
-
-aside{
+#about-me{
     float: left;
-    display: block;
+    clear: both;
+    margin-left: 293px;
+    width: 80%;
+}
+
+#p-about{
+    margin-right: 100px;
+}
+
+#aside{
+    float: left;
     width: 20%;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: right;
+}
+
+#langs{
+    text-align: right;
+}
+
+.pe{
+    display: inline;
+}
+
+.ps{
+    display: inline;
+}
+
+#adw{
+    text-align: right;
+}
+
+#content{
+    float: left;
+    width: 50%;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+
+#logos{
+    float: left;
+    margin-left: 350px;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#btn-up{
+    float: left;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+footer{
+    float: left;
+    clear: both;
+    text-align: center;
+    border: 1px solid white;
+
 }

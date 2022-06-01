@@ -16,7 +16,7 @@
 <body>
 <!-- Header -->
 <header>
-    <div>
+    <div id="header" class="container">
         <div id="buttons">
             <a href="spanish.html"><i class="fa-solid fa-language"></i></a>
             <a href="#"><i class="fa-solid fa-circle"></i></a>
@@ -28,9 +28,9 @@
             <h1 id="h1">Americo Roca</h1>
             <h2 id="cartel">Fullstack Developer</h2>
         </div>
-        <div id="about-me">
+        <div id="about-me" class="container clearfix">
             <h3>About me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p id="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Commodi voluptates nemo hic repellendus doloribus quas consequuntur 
                 recusandae aliquid sit at consequatur illum labore voluptatibus quis, 
                 dolores perferendis voluptate soluta inventore?
@@ -39,54 +39,84 @@
     </div>
 </header>
 
-<!--
-    <aside>
-        <h3>Contact</h3>
-        <p> +34 633564659 </p>
-        <p> americochiclana@gmail.com</p>
-        <p> Overtoom 1054LM Amsterdam</p>
 
-        <h3>Languages</h3>
-        <p>English</p>
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-solid fa-circle"></i>
-        <p>Spanish</p>
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-solid fa-circle"></i>
-
-        <h3>Adwards/Certificates</h3>
-        <a href=""><p>DATABASE PROGRAMMING WITH PL/SQL - ORACLE</p></a>
-        <a href=""><p>JAVASCRIPT ESSENTIALES 1 - JAVASCRIPT INSTITUTE</p></a>
-        <a href=""><p>JAVA FOUNDATIONS - ORACLE</p></a>
-        <a href=""><p>Master in JavaScript: JS, jQuery, Angular, NodeJS</p></a>
-
-
-    </aside>
-    <div id="content">
-        <h3>Professional Experience</h3>
-
-        <h4>2022 - 2022</h4>
-        <h4> NTT DATA / MADRID</h4>
-        <p></p>
-
-
-        <h4>2019 - 2020</h4>
-        <h4> HAESJE CLAES / AMSTERDAM</h4>
-        <p></p>
-
-
-        <h3>Formal Education</h3>
-
+    <div id="aside" class="container">
+        <div id="contact">
+            <h3>Contact</h3>
+            <p> +34 633564659 </p>
+            <p> americochiclana@gmail.com</p>
+            <p> Overtoom 1054LM Amsterdam</p>
+        </div>
+        <div id="langs">
+            <h3>Languages</h3>
+            <br>
+            <div id="en">
+                <p class="pe">English</p>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+            </div>
+            <br>
+            <div id="sp">
+                <p class="ps">Spanish</p>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+            </div>
+        </div>
+        <br>
+        
+        <div id="adw" >
+            <h3>Adwards/Certificates</h3>
+            <a href=""><p>DATABASE PROGRAMMING WITH <br>
+                PL/SQL - ORACLE</p></a>
+            <a href=""><p>JAVASCRIPT ESSENTIALES 1 <br>- JAVASCRIPT INSTITUTE</p></a>
+            <a href=""><p>JAVA FOUNDATIONS - ORACLE</p></a>
+            <a href=""><p>Master in JavaScript: <br> JS, jQuery, Angular, NodeJS</p></a>
+        </div>
 
     </div>
 
-    <footer>
-        <div id="logos">
+    
+    <div id="content" class="container">
+        <h3>Professional Experience</h3>
 
-        </div>
+        <h4>2022 - 2022   INTERNSHIP </h4>
+        <h4>NTT DATA / MADRID</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi 
+            repellendus numquam optio? Architecto, eaque quisquam, suscipit
+             libero eius quasi placeat excepturi quae tempora,
+             illo perferendis dicta neque veritatis veniam sapiente?</p>
+
+        <br>
+        <h4>2019 - 2020   COMUNITY MANAGER </h4>
+        <h4>HAESJE CLAES / AMSTERDAM</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Explicabo mollitia natus necessitatibus sit, excepturi vitae 
+            facilis assumenda, eum ex eos, odit laudantium! Iure
+             recusandae earum in modi illo laborum autem.</p>
+
+        <br>
+        <h3>Formal Education</h3>
+        <h4>2019 - 2022    WEB APPLICATION DEVELOPMENT</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+            eum a praesentium sapiente ratione rem esse autem repudiandae tenetur eius assumenda
+            fugiat ea ut iure. 
+            Ex delectus repellat numquam officia!</p>
+        <br>
+        <h4>2014 - 2016    HIGH SCHOOL</h4>
+
+    </div>
+    <div id="logos" class="container">
+        <h1>logoooos</h1>
+    </div>
+
+    <div id="btn-up" class="container">
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+
+    <footer class="container">
         <p>Develop with <i class="fa-solid fa-heart"></i> by Americo Roca &copy; 2022</p>
         <h3>Social Media</h3>
         <a href="https://www.instagram.com/americo.roca/"><i class="fa-brands fa-instagram" target="blank"></i></a>
@@ -94,7 +124,8 @@
         <a href="https://twitter.com/Americo_Roca"><i class="fa-brands fa-twitter" target="blank"></i></a>
         <a href="https://github.com/AmericoRoca" target="blank"><i class="fa-brands fa-github"></i></a>
     </footer>
--->
+    
+
 
 </body>
 </html>
